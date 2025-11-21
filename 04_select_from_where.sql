@@ -1,0 +1,7 @@
+SELECT *
+
+FROM produtos
+
+WHERE DescCategoriaProduto = 'rpg'; -- PRECISA DAS ASPAS PARA PESQUISAR POR SER UMA STRING
+
+LIMIT 10
